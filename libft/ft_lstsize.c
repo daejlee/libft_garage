@@ -11,10 +11,10 @@
 /* ************************************************************************** */
 #include "libft.h"
 
-int	ft_lstsize(t_list *lst)
+int	ft_lstsize(t_lib_list *lst)
 {
 	int		count;
-	t_list	*add;
+	t_lib_list	*add;
 
 	if (lst == 0)
 		return (0);

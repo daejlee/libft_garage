@@ -11,9 +11,9 @@
 /* ************************************************************************** */
 #include "libft.h"
 
-void	ft_lstiter(t_list *lst, void (*f)(void *))
+void	ft_lstiter(t_lib_list *lst, void (*f)(void *))
 {
-	t_list	*add;
+	t_lib_list	*add;
 
 	if (!lst || !f)
 		return ;

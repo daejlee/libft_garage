@@ -11,11 +11,11 @@
 /* ************************************************************************** */
 #include "libft.h"
 
-t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
+t_lib_list	*ft_lstmap(t_lib_list *lst, void *(*f)(void *), void (*del)(void *))
 {
 	int		size;
 	int		count;
-	t_list	*adr;
+	t_lib_list	*adr;
 
 	if (!lst)
 		return (0);
